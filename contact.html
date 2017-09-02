@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+		<title>Contact Me</title>
+ 		<meta charset="utf-8">
+  		<meta name="viewport" content="width=device-width, initial-scale=1">
+  		<link rel="stylesheet" type="text/css" href="style.css">
+  		<!-- link to Google font -->
+  		<link href="https://fonts.googleapis.com/css?family=Hind:300,400,500,600" rel="stylesheet">
+	</head>
+
+	<body>
+		<nav>
+			<ul>
+				<li><a href="contact.html">Contact Me</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="index.html">Home</a></li>
+				<li><a id="brand_name" href="index.html">Alexandria Stehney</a></li>
+			</ul>
+		</nav>
+		<form id="contact" action="mailto:astehney@umich.edu" method="post" enctype="text/plain">
+			<label>Name:<br /><input type="text" name="name" />
+			</label>
+			<br />
+			<label>Email:<br /><input type="text" name="email" />
+			</label>
+			<br />
+			<label>Message:<br />
+				<textarea name="message"></textarea>
+			</label>
+			<br />
+			<div id="form_buttons">
+				<input type="submit" name="send" value="send" />
+				<input type="reset" name="reset" value="reset" />
+			</div>
+		</form>	
+	</body>
+</html>

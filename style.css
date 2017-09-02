@@ -1,0 +1,156 @@
+body {
+	background-color: rgb(238,255,204);
+	opacity: 0.9;
+}
+
+table img {
+	width: 95%;
+	height: auto;
+	border-radius: 15px;
+	-mox-box-shadow: -7px 7px #777777;
+	-webkit-box-shadow: -7px -7px #777777;
+	box-shadow: -7px -7px #777777;
+	-webkit-filter: grayscale(40%);
+	fitler: grayscale(40%);
+}
+
+#brand_name {
+	font-family: 'Hind', sans-serif;
+	display: block;
+	color: white;
+	text-decoration: none;
+	/*top: 0;*/
+	left: 0;
+	position: absolute;
+	padding: 14px 16px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0.3rem;
+    overflow: hidden;
+    background-color: #333333;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+ul li {
+    float: right;
+    font-family: 'Hind', sans-serif;
+}
+
+ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul li a:hover {
+	color: rgb(238,255,204);
+    background-color: black;
+}
+
+#about_photo {
+	width: 30%;
+	height: auto;
+	display: block;
+	float: left;
+	margin-top: 5.3%;
+}
+
+.bio {
+	text-align: left;
+	font-family: 'Hind', sans-serif;
+	margin-top: 6.3%;
+	margin-left: 32%;
+	margin-right: 7%;
+}
+
+ol li{
+	margin-left: 31%;
+	font-family: 'Hind', sans-serif;
+}
+
+table {
+	margin-top: 7.7%;
+	text-align: center;
+}
+
+h1 {
+    font-family: 'Hind', sans-serif;
+    font-size: 12rem;
+    color: #333333;
+    text-align: center;
+}
+
+blockquote {
+	font-family: 'Hind', sans-serif;
+	color: #333333;
+}
+
+#contact {
+	margin-top: 8%;
+	margin-left: 32%;
+	font-family: 'Hind', sans-serif;
+	text-align: left;
+}
+
+input[type=text] {
+	width: 50%;
+	padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+	width: 50%;
+	padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 50%;
+    background-color: #228B22;
+    color: white;
+    padding: 14px 20px;
+    /*margin: 8px 0;*/
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+}
+
+input[type=reset] {
+    width: 50%;
+    background-color: #B22222;
+    color: white;
+    padding: 14px 20px;
+    /*margin: 8px 0;*/
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #006400;
+}
+
+input[type=reset]:hover {
+    background-color: #8B0000;
+}
+
+#form_buttons {
+	display:inline-block;
+}
