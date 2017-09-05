@@ -85,18 +85,21 @@ ol li{
 }
 
 table {
-	margin-top: 7.7%;
+	margin-top: 5rem;
 	text-align: center;
 }
 
 h1 {
     font-family: 'Hind', sans-serif;
-    font-size: 12rem;
+    font-size: 6rem;
+    margin-top: 0.3rem;
+    margin-bottom: 0;
     color: #333333;
     text-align: center;
 }
 
 blockquote {
+    margin-top: 0;
 	font-family: 'Hind', sans-serif;
 	color: #333333;
 }
