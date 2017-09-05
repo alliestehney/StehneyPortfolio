@@ -9,6 +9,10 @@
   		<link rel="stylesheet" type="text/css" href="style.css">
   		<!-- link to Google font -->
   		<link href="https://fonts.googleapis.com/css?family=Hind:300,400,500,600" rel="stylesheet">
+  		<!-- link to javascript file -->
+  		<script src="portfolio.js" type="text/javascript"></script>
+  		<!-- link to font awesome -->
+  		<script src="https://use.fontawesome.com/580b594061.js"></script>
 	</head>
 
 	<body>
@@ -20,8 +24,11 @@
 				<li><a id="brand_name" href="index.html">Alexandria Stehney</a></li>
 			</ul>
 		</nav>
-		<form id="contact" action="mailto:astehney@umich.edu" method="post" enctype="text/plain">
-			<label>Name:<br /><input type="text" name="name" required/>
+
+		<h2> SEND ME A NOTE! </h2>
+		
+		<form id="contact" method="post" enctype="text/plain">
+			<label>Name:<br /><input type="text" name="name" id="nameinput" required/>
 			</label>
 			<br />
 			<label>Email:<br /><input type="text" name="email" required/>
@@ -32,9 +39,19 @@
 			</label>
 			<br />
 			<div id="form_buttons">
-				<input type="submit" name="send" value="send" />
+				<input type="submit" onclick="showInput();" name="send" value="send" />
 				<input type="reset" name="reset" value="reset" />
 			</div>
-		</form>	
+		</form>
+
+		<footer>
+			<div id="footer">
+				<ul>
+					<li><a href="https://github.com/alliestehney"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+					<li><a href="https://www.linkedin.com/in/alexandriastehney"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+					<li><a href="mailto:astehney@umich.edu"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+				</ul>
+		</div>
+		</footer>
 	</body>
 </html>
