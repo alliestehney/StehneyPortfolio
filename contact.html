@@ -28,18 +28,18 @@
 		<h2> SEND ME A NOTE! </h2>
 		
 		<form id="contact" method="post" enctype="text/plain">
-			<label>Name:<br /><input type="text" name="name" id="nameinput" required/>
+			<label>Name:<br /><input type="text" name="name" id="nameinput" />
 			</label>
 			<br />
-			<label>Email:<br /><input type="text" name="email" required/>
+			<label>Email:<br /><input type="text" name="email" id="emailinput" />
 			</label>
 			<br />
 			<label>Message:<br />
-				<textarea name="message" required></textarea>
+				<textarea name="message" id="messageinput" ></textarea>
 			</label>
 			<br />
 			<div id="form_buttons">
-				<input type="submit" onclick="showInput();" name="send" value="send" />
+				<input type="submit" onclick="submit_by_id();" name="send" value="send" />
 				<input type="reset" name="reset" value="reset" />
 			</div>
 		</form>
