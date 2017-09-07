@@ -72,6 +72,10 @@ ul li a:hover {
     margin-right: 5%;
 }
 
+#list {
+    margin-top: 10rem;
+    margin-left:4rem;
+}
 .bio {
 	text-align: left;
 	font-family: 'Hind', sans-serif;
@@ -79,9 +83,23 @@ ul li a:hover {
 	margin-left: 32%;
 }
 
+p.bio {
+    font-weight: 300;
+    margin-top: 0;
+}
+
+h2.bio {
+    margin-top: 4rem;
+}
+
+ol {
+    padding-left: 0;
+}
+
 ol li{
-	margin-left: 31%;
+	margin-left: 1rem;
 	font-family: 'Hind', sans-serif;
+    font-weight: 300;
 }
 
 table {
@@ -220,6 +238,12 @@ footer ul li:nth-child(3){
     font-family: 'Hind', sans-serif;
     color: white;
     display: inline-block;
+}
+
+h3 {
+    font-family: 'Hind', sans-serif;
+    font-weight: 500;
+    margin-bottom: 0;
 }
 
 
