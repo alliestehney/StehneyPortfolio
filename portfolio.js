@@ -1,14 +1,13 @@
-// document.getElementById("contact").submit();
-
-// function showInput() {
-// 	alert("Thanks, "+ document.getElementById("nameinput").value + ", for your submission! I'll get back to you as soon as I can.")
-// }
+function showInput() {
+	alert("Thanks, "+ document.getElementById("nameinput").value + ", for your submission! I'll get back to you as soon as I can.")
+}
 
 function submit_by_id() {
 	var name = document.getElementById("nameinput").value;
 	var email = document.getElementById("emailinput").value;
 	if (formValidation()) {
 		document.getElementById("contact").submit();
+		showInput();
 	}
 }
 
