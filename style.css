@@ -116,6 +116,27 @@ h1 {
     text-align: center;
 }
 
+#header-background {
+    width: 40%;
+    margin: 0 auto;
+    border-color: #333333;
+    border-radius: 15px;
+    -webkit-animation-name: header1;
+    -webkit-animation-duration: 4s; 
+    animation-name: header1;
+    animation-duration: 4s;
+}
+
+@-webkit-keyframes header1 {
+    from {background-color: #333333;}
+    to {background-color: #FFFFE0;}
+}
+
+@keyframes header1 {
+    from {background-color: #333333;}
+    to {background-color: #FFFFE0;}
+}
+
 blockquote {
     margin-top: 0;
 	font-family: 'Hind', sans-serif;
