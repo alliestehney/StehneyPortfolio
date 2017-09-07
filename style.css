@@ -141,6 +141,20 @@ blockquote {
     margin-top: 0;
 	font-family: 'Hind', sans-serif;
 	color: #333333;
+    position:relative;
+    -webkit-animation: quote 5s;
+    animation: quote 5s;
+    animation-fill-mode: forwards; 
+}
+
+@-webkit-keyframes quote {
+    from {left: 0px;}
+    to {left: 250px;}
+}
+
+@keyframes quote {
+    from {left: 0px;}
+    to {left: 250px;}
 }
 
 #contact {
